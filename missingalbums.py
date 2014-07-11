@@ -29,7 +29,7 @@ class MissingAlbumsPlugin(BeetsPlugin):
     Checks MusicBrainz for any albums you may be missing by an artist
 
     Decides if its missing using string matching, could be made more
-    sophisitcated but it seems to works ok
+    sophisticated but it seems to works ok
     """
     def __init__(self):
         super(MissingAlbumsPlugin, self).__init__()
