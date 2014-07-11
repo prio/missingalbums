@@ -47,7 +47,7 @@ class MissingAlbumsPlugin(BeetsPlugin):
                           for album in albums
                           if (album.mb_albumartistid != ''
                               and album.albumartist.lower() !=
-                              "Various Artists".lower())}
+                              "various artists"}
 
             for artist_id in artist_ids:
                 artist = mb.musicbrainzngs.get_artist_by_id(
